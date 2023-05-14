@@ -1,0 +1,213 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Sora:wght@700&display=swap");
+
+* {
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background-color: #272727;
+}
+
+/* Navbar */
+nav {
+  background-color: #272727;
+}
+
+.box-nav {
+  border-bottom: 1px solid #d1d1d1;
+}
+
+.logo {
+  font-family: "Sora";
+  font-size: 24px;
+}
+
+#nav-list a {
+  color: #c9c9c9;
+}
+
+#nav-list a:hover {
+  color: #ffffff;
+}
+
+/* Konten */
+.content {
+  margin-top: 94px;
+}
+
+/* about */
+.about {
+  width: 94%;
+}
+
+.desc {
+  font-family: "Sora";
+  color: #4ca9ff;
+  font-weight: 700;
+  font-size: 46px;
+  line-height: 72px;
+  letter-spacing: 1px;
+}
+
+/* bio */
+.Biography{
+  margin-top: 3em;
+}
+
+.bio h3 {
+  font-family: "Sora";
+  font-size: 28px;
+}
+
+.bio p {
+  color: #ffffff;
+  font-size: 18px;
+  text-align: justify;
+}
+
+.sosial-media h3 {
+  font-family: "Sora";
+  font-size: 28px;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.sosial-media a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 28px;
+}
+
+.sosial-media a:hover {
+  color: #4ca9ff;
+}
+.deskripsi {
+  margin-top:100px;
+}
+
+.deskripsi h4{
+  font-family: "Sora";
+  font-size: 28px;
+}
+
+.deskripsi p{
+  line-height: 32px;
+  text-align: justify;
+}
+
+.card-custom {
+  width:45%;
+  margin-left: 5%;
+  background-color: #323443;
+}
+
+.card-icon{
+  padding: 20px;
+  position: absolute;
+  top: -30px;
+  background-color: #323443;
+}
+
+/* Skills */
+.skills{
+  padding-top: 105px;
+}
+
+.skills h3{
+  font-family: "Sora";
+  font-size: 48px;
+  line-height: 56px;
+}
+
+.card-skill{
+  background-color: #323443;
+  height: 272px;
+}
+.card-skill i{
+  font-size: 48px;
+  margin-right: 15px;
+}
+
+.card-skill h4{
+  font-family: "Sora";
+  font-size: 28px;
+}
+
+.card-skill p{
+  text-align: justify;
+}
+
+/* Portfolio */
+#Portfolio{
+  padding-top: 90px
+}
+
+#Portfolio h4 {
+  font-family: "Sora";
+  font-size: 48px;
+}
+
+#Portfolio h3{
+  font-family: "Sora";
+  font-size: 48px;
+}
+
+#Portfolio p {
+  line-height: 32px;
+  text-align: justify;
+}
+
+.tombol {
+  background-color: #323443;
+  color : #c9c9c9;
+}
+
+.tombol:hover {
+  background-color: #4ca9ff;
+  color: #ffffff;
+  trasition: ease 0.8s;
+}
+
+.see-more{
+  width: 40%;
+}
+
+/* Footer */
+.footer{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.border-footer{
+  border-top : 1px solid #4d4d4d;
+}
+
+/* page portfolio */
+.heading-text h2, span {
+  font-family: "Sora";
+  font-size: 56px;
+  color: #fff;
+}
+
+/* porto custom */
+.container-porto{
+  width: 556px;
+  height: 282px;
+  background-color: #323443;
+  border-radius: 10px;
+}
+
+.img-arrow {
+  rotate: 315deg;
+}
+
+.kotak-arrow{
+  background-color: #3F4152;
+  padding: 9px;
+  width: 35px;
+  height: 35px;
+  top: 7px;
+  right: 7px;
+  border-radius: 10px;
+}
